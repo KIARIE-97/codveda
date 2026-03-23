@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "dLn7CXLxsvM=",
+  "dgSpecHash": "kNxguZlN7+k=",
   "success": true,
   "projectFilePath": "C:\\Users\\zarrah\\Desktop\\projects\\Codveda\\level1\\Task3\\Task3.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\zarrah\\.nuget\\packages\\serilog\\4.3.2-dev-02419\\serilog.4.3.2-dev-02419.nupkg.sha512",
+    "C:\\Users\\zarrah\\.nuget\\packages\\serilog.sinks.console\\6.1.1\\serilog.sinks.console.6.1.1.nupkg.sha512",
+    "C:\\Users\\zarrah\\.nuget\\packages\\serilog.sinks.file\\8.0.0-nblumhardt-02322\\serilog.sinks.file.8.0.0-nblumhardt-02322.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,0 +1,5 @@
+2026-03-23 21:58:51.311 +03:00 [ERR] invalid age entered
+Task3.InvalidAgeException: Age cannot be negative
+   at Task3.Person..ctor(String fullName, Int32 phoneNumber, Int32 age) in C:\Users\zarrah\Desktop\projects\Codveda\level1\Task3\Hospital.cs:line 19
+   at Task3.Patient..ctor(String fullName, Int32 phoneNumber, Int32 age, String symptoms) in C:\Users\zarrah\Desktop\projects\Codveda\level1\Task3\Hospital.cs:line 45
+   at Program.Main() in C:\Users\zarrah\Desktop\projects\Codveda\level1\Task3\Program.cs:line 19

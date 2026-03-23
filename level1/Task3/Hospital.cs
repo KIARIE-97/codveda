@@ -1,12 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
+using System;
 
-using System.Security.Cryptography;
+namespace Task3;
 
-/** 
-Task 2: C# Basics & Object-
-Oriented Programming (OOP)
-********************************************
-*/
 class Person
 {
     public string FullName{get; set;} = string.Empty;
@@ -19,8 +14,9 @@ class Person
         Age= age;
         PhoneNumber =phoneNumber;
 
+      //add validation
         if (age < 0) {
-        throw new Exception($"Age cannot be negative");
+        throw new InvalidAgeException("Age cannot be negative");
     }
     }
     public virtual void GetDetails()
@@ -38,30 +34,33 @@ class Doctor(string fullName, int phoneNumber, int age, string specialty) : Pers
         Console.WriteLine($"Dr. {FullName} ({Specialty}) diagnosed: {Diagnosis}");
     }
 }
-class Patient(string fullName, int phoneNumber, int age, string symptoms): Person(fullName,phoneNumber,age)
+class Patient: Person
 {
-    public string? Symptoms{ get; set;} = symptoms;
+    public string Symptoms{ get; set;} 
     public static void BookAppointment() {}
     public override void GetDetails()
     {
         Console.WriteLine($"my symptoms are: {Symptoms}");
     }
+    public Patient (string fullName, int phoneNumber, int age, string symptoms) : base(fullName,phoneNumber,age)
+    {
+        Symptoms = symptoms;
+
+        if(string.IsNullOrEmpty(symptoms))
+        {
+            throw new EmptySyptomsException("please provide your symptoms for dignosis");
+        }
+        
+    }
     
 }
 
-    class Program
+//a custom exception
+class InvalidAgeException (string message) : Exception(message)
 {
-        static void Main()
-    {
-        Doctor doc = new ("Smith", 123456789, 45, "Cardiology");
-        Patient pat = new ("Alice", 987654321, 30, "Chest pain");
-
-        doc.Diagnosis = "Hypertension";
-
-        doc.GetDetails();
-        pat.GetDetails();
-    }
-
+    
 }
-
-
+class EmptySyptomsException (string message) : Exception(message)
+{
+    
+}
