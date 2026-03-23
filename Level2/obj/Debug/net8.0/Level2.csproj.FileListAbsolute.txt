@@ -1,0 +1,15 @@
+C:\Users\zarrah\Desktop\projects\Codveda\Level2\bin\Debug\net8.0\Level2.exe
+C:\Users\zarrah\Desktop\projects\Codveda\Level2\bin\Debug\net8.0\Level2.deps.json
+C:\Users\zarrah\Desktop\projects\Codveda\Level2\bin\Debug\net8.0\Level2.runtimeconfig.json
+C:\Users\zarrah\Desktop\projects\Codveda\Level2\bin\Debug\net8.0\Level2.dll
+C:\Users\zarrah\Desktop\projects\Codveda\Level2\bin\Debug\net8.0\Level2.pdb
+C:\Users\zarrah\Desktop\projects\Codveda\Level2\obj\Debug\net8.0\Level2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zarrah\Desktop\projects\Codveda\Level2\obj\Debug\net8.0\Level2.AssemblyInfoInputs.cache
+C:\Users\zarrah\Desktop\projects\Codveda\Level2\obj\Debug\net8.0\Level2.AssemblyInfo.cs
+C:\Users\zarrah\Desktop\projects\Codveda\Level2\obj\Debug\net8.0\Level2.csproj.CoreCompileInputs.cache
+C:\Users\zarrah\Desktop\projects\Codveda\Level2\obj\Debug\net8.0\Level2.sourcelink.json
+C:\Users\zarrah\Desktop\projects\Codveda\Level2\obj\Debug\net8.0\Level2.dll
+C:\Users\zarrah\Desktop\projects\Codveda\Level2\obj\Debug\net8.0\refint\Level2.dll
+C:\Users\zarrah\Desktop\projects\Codveda\Level2\obj\Debug\net8.0\Level2.pdb
+C:\Users\zarrah\Desktop\projects\Codveda\Level2\obj\Debug\net8.0\Level2.genruntimeconfig.cache
+C:\Users\zarrah\Desktop\projects\Codveda\Level2\obj\Debug\net8.0\ref\Level2.dll
